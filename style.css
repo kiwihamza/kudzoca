@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+nav {
+  background-color: #e4f1f9;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+/* the start of nav-right */
+
+.nav-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.nav-right a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+  color: #4883bc;
+  border-radius: 4px;
+}
+.active {
+  color: #8f5c99;
+  border-bottom: #8f5c99 3px solid;
+}
+/* the end of nav-right */
+
+/* the start of nav-left */
+.nav-left button {
+  background-color: white;
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  margin-right: 50px;
+}
+/* the end of nav-left */
+/* the end of nav bar */
+/* the start of sec1 */
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 700px;
+  justify-content: space-between;
+  background-image: url(blue_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 85%;
+  padding: 50px;
+  position: relative;
+}
+
+.img-sec1 {
+  position: relative;
+}
+.img1 {
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: -200px;
+  z-index: 2;
+}
+
+.img2 {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  bottom: -300px;
+  right: -150px;
+  z-index: 3;
+}
+.img3 {
+  position: absolute;
+  left: -700px;
+  top: -250px;
+  height: 700px;
+}
+.text-sec1 {
+  margin: 20px;
+  width: 40%;
+}
+.text-sec1 h1 {
+  color: rgba(59, 59, 59, 0.758);
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-sec1 h1 span {
+  color: #8f5c99;
+}
+.text-sec1 p {
+  font-size: 25px;
+  color: #9c9c9cd6;
+}
+.bottom {
+  width: 90%;
+  position: absolute;
+  bottom: -80px;
+  right: 350px;
+}
+/* the end of sec1 */
+/* the start of sec2 */
+.sec2 {
+  background-image: url(second_section_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 100%; */
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 100px;
+  position: relative;
+}
+.p1img,
+.p2img,
+.p3img {
+  height: 100px;
+}
+.p1 {
+  width: 20%;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.p2 {
+  width: 20%;
+  height: 50px;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+.p3 {
+  width: 20%;
+  height: 50px;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+.p4 {
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  top: 75%;
+  left: 0px;
+}
+.p4img {
+  width: 80%;
+  height: 300px;
+}
+.inner {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+
+.inner p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.inner h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* the end of sec2 */
+/* the start of sec3 */
+.sec3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 300px;
+}
+.four {
+  display: flex;
+  justify-content: center;
+}
+.four p {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: hsla(0, 0%, 25%, 0.772);
+}
+.block h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #414141;
+}
+/* the end of div */
+/* the start of footer */
+footer {
+  background-image: url("Group 1131.png");
+  background-size: 110% 800px;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  justify-content: space-between;
+}
+.right {
+  position: absolute;
+  left: 1px;
+ 
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+button {
+  display: flex;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  background-color: white;
+}
+.icons {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 12px;
+  margin: 50px;
+  padding: 50px;
+}
+.icons1 {
+  margin: 10px;
+  font-size: 8px;
+}
+.left {
+  position: relative;
+}
+.left img {
+  position: absolute;
+  left: 700px;
+  top: -250px;
+  width: 500px;
+  height: 400px;
+}
+.footer {
+  position: absolute;
+  margin-left: 20px;
+  top: 200px;
+}
+
+.links { 
+  
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
